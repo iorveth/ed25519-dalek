@@ -262,5 +262,6 @@ mod public;
 mod secret;
 mod signature;
 
+pub use crate::rand::*;
 // Export everything public in ed25519.
 pub use crate::ed25519::*;
